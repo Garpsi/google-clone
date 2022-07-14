@@ -1,9 +1,9 @@
 import React from "react";
-import "./Home.css";
 import { Link } from "react-router-dom";
 import AppsIcon from "@mui/icons-material/Apps";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import Search from "../components/Search";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -30,6 +30,7 @@ const Home = () => {
           <Search />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
