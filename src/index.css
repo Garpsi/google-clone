@@ -79,7 +79,7 @@ code {
 .home__body {
   flex: 1;
   display: flex;
-  margin-top: 10%;
+  margin-top: 7.5%;
   flex-direction: column;
 }
 
